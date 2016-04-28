@@ -62,12 +62,17 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
     
 }
 
 ul li {
     margin-left: 25px;   
+}
+
+.active {
+
+    color: #4CAF50;
 }
 
 .text-muted
