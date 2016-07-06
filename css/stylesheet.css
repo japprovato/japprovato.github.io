@@ -30,13 +30,13 @@ body {
 }
 
 .headline h1 {
-    font-size: 130px;
+    font-size: 30px;
     background: rgba(255,255,255,0.9);
     background: feefee;
 }
 
 .headline h2 {
-    font-size: 77px;
+    font-size: 20px;
     background: rgba(255,255,255,0.9);
     background: feefee;
 }
@@ -62,12 +62,17 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
     
 }
 
 ul li {
     margin-left: 25px;   
+}
+
+.active {
+
+    color: #4CAF50;
 }
 
 .text-muted
