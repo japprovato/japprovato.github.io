@@ -1,161 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jordana Approvato">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Jordana Approvato | Hoboken, NJ</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylesheet.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
+  <title>Jordana Approvato | Hoboken, NJ</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,200,100,300,500,600,800,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,700italic,900,400italic,300italic' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#menu").sticky({ topSpacing: 0 });
+    });
+  </script>
+  </head>
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Jordana Approvato</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
-                    <li>
-                        <a href="#workexperience">Work Experience</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h1>Jordana Approvato</h1>
-                <h2>Computer Science Student</h2>
-            </div>
-        </div>
-    </header>
-
-    <!-- Page Content -->
+<div class="container-fluid banner text-center" id="banner"> 
+    <div class="row">
+		<div class="col-md-12">
+			<div class="tablebox">
+				<div class="banner-text" id="bannertext">
+					<h1>Jordana Approvato</h1>
+					<h2>Software Developer</h2>
+					<a href="#education" class="page-scroll arrow"><i class="fa fa-angle-down"></i></a> 
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="navbar menubar" id="menu">
     <div class="container">
-
-        <hr class="featurette-divider">
-
-        <!-- First Featurette -->
-        <div class="featurette" id="education">
-            <img class="featurette-image img-circle img-responsive pull-right" src="picture2.jpg">
-            <h2 class="featurette-heading">Stevens Institute of Technology
-                <span class="text-muted">Class of 2018</span>
-            </h2>
-            <p class="lead">Pursuing a Bachelor of Science in Computer Science </p>
-            <ul class="lead">Campus Involvement
-                <li>Resident Assistant</li>
-                <li>Theta Phi Alpha Sorority - Treasurer, Traditions Chair</li>
-                <li>Panhellenic Council - Treasurer, Secretary</li>
-                <li>WCPR Radio Station - Host</li>
-                <li>Computer Science Club</li>
-            </ul>
-            
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Second Featurette -->
-        <div class="featurette" id="workexperience">
-            <h2 class="featurette-heading">Work Experience
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <ul class="lead"><b>CA Technologies</b> | <i>Software Engineering Intern</i>
-                                                    | September 2015 - December 2015
-                <li>Implemented new features into existing privileged identity management                                   solution</li>
-                <li>Increased understanding of Object-Oriented PHP, Javascript, and MySQL</li>
-                <li>Continued education on the software development process and project                                     management</li>
-            </ul>
-            <ul class="lead"><b>SPHERE Technology Solutions</b> | <i>Junior Software 
-                                    Development Engineer</i> | January 2015 - May 2015
-                <li>Developed new automated data collection and ingestion using C# and                                      Powershell</li>
-                <li>Developed scripting tools to assist engineers and the management team on                                projects</li>
-                <li>Supported systems engineers</li>
-            </ul>
-            <ul class="lead"><b>Numerix LLC</b> | <i>Quality Assurance Developer/Tester Intern</i>
-                                                    | May 2014 - August 2014
-                <li>Tested and validated derivatives pricing applications according to client and                           internal requirements</li>
-                <li>Used technical and analytical skills to create and execute test cases and                               automated testing</li>
-                <li>Debugged multiple programs used for automating financial software tests</li>
-            </ul>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="featurette" id="skills">
-            <h2 class="featurette-heading"> Technical
-                <span class="text-muted">Strengths</span>
-            </h2>
-            <p class="lead">
-            <b>Computer Languages:</b> PHP, Javascript, C#, Python, Powershell, 
-                                            Java, HTML, CSS, Perl<br>
-            <b>Operating Systems:</b> Windows, Linux, MAC OS<br>
-            <b>Tools:</b> Bash, Vim, Git, XML, JSON, Photoshop CC<br>
-            <b>Databases:</b> MySQL<br>
-            </p>
-            
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Jordana Approvato 2015</p>
-                </div>
-            </div>
-        </footer>
-
+		<div class="navbar-header"> 
+			<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+				<span class="glyphicon glyphicon-align-justify"></span>
+			 </button>
+			<a class="navbar-brand logo" href="#">Jordana Approvato</a> 
+		</div>
+		<div>
+			<nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+			<ul class="nav navbar-nav navbar-right navstyle">
+				<li><a href="#banner" class="page-scroll active">Home</a></li>
+				<li><a href="#education" class="page-scroll">Education</a></li>
+				<li><a href="#work-experience" class="page-scroll">Work Experience</a></li>
+				<li><a href="#skills" class="page-scroll">Skills</a></li>
+				<li><a href="#contact" class="page-scroll">Contact</a></li>
+				<li><a href="#resume" class="page-scroll">Downloadable Resume</a></li>
+			</ul>
+		  </nav>
+      </div>
+  </div>
+</div>
+<div class="education" id="education">
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<div class="col-md-6 col-sm-6 col-xs-12 centertext">
+						<h2>Education</h2>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p class="desc">Stevens Institute of Technology</p>
+						<p class="desc">Class of 2018</p>
+						<p class="desc">Pursuing a Bachelor of Science in Computer Science</p>
+						<p class="desc">Stevens Institute of Technology</p>
+					</div>
+					<!--
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h3>Campus Involvement</h3>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<ul class="list-group">
+							<li class="list-group-item">Resident Assistant</li>
+							<li class="list-group-item">Theta Phi Alpha Sorority - Treasurer and Secretary</li>
+							<li class="list-group-item">Panhellenic Council - Treasurer and Secretary</li>
+							<li class="list-group-item">WCPR Radio Station - Radio Host</li>
+							<li class="list-group-item">Computer Science Club</li>
+						</ul>
+				  </div>
+				  -->
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="work-experience" id="work-experience">
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<h2>Work Experience</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row job-desc">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-12">
+						<h4>AllianceBernstein</h4>
+						<p>June 2016 - August 2016</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h5>Front End Web Developer</h5>
+						<ul>
+							<li>Created responsive webpages based on designer’s mock-ups using HTML, CSS and jQuery</li>
+							<li>Updated existing webpages to meet designer specifications and design updates</li>
+							<li>Transitioned website icons to SVGs</li>
+							<li>Revised webpages using a content management system and XSLT</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row job-desc">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-12">
+						<h4>CA Technologies</h4>
+						<p>September - December 2015</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h5>Software Engineering Intern</h5>
+						<ul>
+							<li>Implemented new features into existing application</li>
+							<li>Developed interactive form-based webpages using HTML, CSS and Javascript</li>
+							<li>Created new DB tables, used PHP to interact with MySQL database</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row job-desc">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-12">
+						<h4>SPHERE Technology Solutions</h4>
+						<p>January - May 2015</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h5>Junior Software Development Engineer</h5>
+						<ul>
+							<li>Developed automated data collection and ingestion scripts using C# and Powershell</li>
+							<li>Created scripting tools to assist engineers and the management team on projects</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row job-desc">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="alldesc">
+					<div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-12">
+						<h4>Numerix</h4>
+						<p>May - August 2014</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h5>Quality Assurance Tester/Developer Intern</h5>
+						<ul>
+							<li>Tested and validated derivatives pricing applications in accordance with client and internal requirements</li>
+							<li>Used techincal and analytical skills to create and execute test cases and automate any testing</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
-    <!-- /.container -->
+</div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<div class="skills" id="skills">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 col-sm-12 col-xs-12">
+        		<div class="alldesc">
+            		<div class="col-md-12 col-sm-12 col-xs-12">
+            			<h2>Technical Strengths</h2>
+          			</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<h4>Programming Languages</h4>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>PHP</li>
+							<li>Python</li>
+							<li>C</li>
+							<li>C++</li>
+							<li>Java</li>
+						<ul>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<h4>Operating Systems</h4>
+						<ul>
+							<li>Windows</li>
+							<li>Linux</li>
+							<li>MAC OS X</li>
+						<ul>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<h4>Design Tools</h4>
+						<ul>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Dreamweaver</li>
+							<li>Adobe Illustrator</li>
+							<li>Adobe InDesign</li>
+						<ul>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<h4>Other Skills</h4>
+						<ul>
+							<li>Git</li>
+							<li>Vim</li>
+							<li>JSON</li>
+							<li>XML</li>
+							<li>AWS</li>
+							<li>MySQL</li>
+						<ul>
+					</div>
+				</div>
+			</div>        
+        </div>
+    </div>
+</div>
 
+<footer class="foot" id="contact"> 
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+				<a href="mailto:jordana.approvato@gmail.com"><i class="fa fa-envelope-o"></i> Contact Me</a>
+            	<h4 class="foot-logo">JordanaDaire</h4>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+            	<p class="foot-text">Copyrights &copy; 2016 | Jordana Approvato </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/typed.js" type="text/javascript"></script> 
+<script src="js/jquery.mixitup.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/jquery.countTo.js"></script> 
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
+<script type="text/javascript" src="js/jquery.quovolver.js"></script>
+<script>
+$(function(){
+    var windowH = $(window).height();
+    var bannerH = $('#banner').height();
+    if(windowH > bannerH) {                            
+        $('#banner').css({'height':($(window).height() - 68)+'px'});
+		$('#bannertext').css({'height':($(window).height() - 68)+'px'});
+    }                                                                               
+    $(window).resize(function(){
+        var windowH = $(window).height();
+        var bannerH = $('#banner').height();
+        var differenceH = windowH - bannerH;
+        var newH = bannerH + differenceH;
+        var truecontentH = $('#bannertext').height();
+        if(windowH < truecontentH) {
+            $('#banner').css({'height': (newH - 68)+'px'});
+			$('#bannertext').css({'height': (newH - 68)+'px'});
+        }
+		if(windowH > truecontentH) {
+            $('#banner').css({'height': (newH - 68)+'px'});
+			$('#bannertext').css({'height': (newH - 68)+'px'});
+        }
+    })          
+});
+</script>
+<script>
+$(document).ready(function () {
+	$(document).on("scroll", onScroll);
+	$('a[href^="#"]').on('click', function (e) {
+		e.preventDefault();
+		$(document).off("scroll");
+		$('a').each(function () {
+			$(this).removeClass('active');
+		})
+		$(this).addClass('active');
+		var target = this.hash;
+		$target = $(target);
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 500, 'swing', function () {
+			window.location.hash = target;
+			$(document).on("scroll", onScroll);
+		});
+	});
+});
+
+function onScroll(event){
+	var scrollPosition = $(document).scrollTop();
+	$('.nav li a').each(function () {
+		var currentLink = $(this);
+		var refElement = $(currentLink.attr("href"));
+		if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+			$('.nav li a').removeClass("active");
+			currentLink.addClass("active");
+		}
+		else{
+			currentLink.removeClass("active");
+		}
+	});
+}
+</script>
 </body>
-
 </html>

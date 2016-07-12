@@ -1,0 +1,257 @@
+/*------------------------------------------/
+/----------------Header---------------------/
+/------------------------------------------*/
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+.banner
+{
+	background-color: #E14658;
+}
+.banner h1
+{
+	font-family:'Raleway', sans-serif;
+	font-weight: 700;
+	color: #3F3250;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+.banner h2
+{
+	color: #EAE3EA;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.banner-text 
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.arrow
+{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(234, 227, 234, 0.75);
+    display: inline-block;
+    margin: 30px -2px 0px 0px;
+}
+.arrow:hover, .arrow:focus
+{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(224, 224, 224, 0.95);
+    display: inline-block;
+    margin: 30px -2px 0px 0px;
+}
+.tablebox
+{
+	display: table;
+	width: 100%;
+}
+.menubar
+{
+	margin-bottom: 0px !important;
+	background-color: #3F3250;
+	border: none !important;
+	border-radius: 0px !important;
+	z-index: 2;
+}
+.logo
+{
+	padding: 24px 15px !important;
+	display: inline-block;
+	height: auto !important;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	color: #EAE3EA !important;
+	font-size: 34px !important;	
+}
+
+.navstyle li a
+{
+	padding: 24px 15px !important;
+	color: #EAE3EA;
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.navstyle li a:hover, .navstyle li a:focus, .navstyle li a.active
+{
+	background-color: #22252C !important;
+	color: #fff;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px !important;
+}
+
+/*------------------------------------------/
+/------------------Body---------------------/
+/------------------------------------------*/
+.alldesc h2 
+{
+    color: #E14658;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 40px;
+    margin-top: 0px !important;
+	margin-bottom: 40px;
+    font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.alldesc h3
+{
+    color: #3F3250;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 20px;
+    margin-top: 0px !important;
+    font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.alldesc h4 
+{
+	color: #3F3250;
+	font-weight: 600;
+	margin-top: 0px !important;
+}
+.alldesc h5 
+{
+	font-weight: 700;
+	color: #3F3250;
+    font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	margin-top: 0px !important;
+}
+.alldesc li {
+	list-style: circle inside none;
+}
+.desc
+{
+	 font-family: "Source Sans Pro",sans-serif;
+	 font-size: 17px;
+	 font-weight: 400;
+	 color: #888;
+}
+
+
+/*------------------------------------------/
+/---------------Education-------------------/
+/------------------------------------------*/
+.education
+{
+	padding: 100px 0px 100px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/*------------------------------------------/
+/------------Work Experience----------------/
+/------------------------------------------*/
+.work-experience
+{
+	padding: 100px 0px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	background-color: #EAE3EA;
+}
+.job-desc 
+{
+	padding: 20px 0px;
+	color: #3F3250;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+/*------------------------------------------/
+/-----------------Skills--------------------/
+/------------------------------------------*/
+.skills
+{
+	padding: 100px 0px 100px;
+}
+
+/*------------------------------------------/
+/-----------------Footer--------------------/
+/------------------------------------------*/
+.foot
+{
+	padding: 50px 0px 30px;
+	background-color: #EAE3EA;
+}
+.foot-logo
+{
+	font-family: 'Pacifico', cursive;
+	color: #3EC9C3;	
+	font-size: 30px;
+	text-align: center;
+}
+.foot-text
+{
+	color: #888;
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 20px 0px;
+	text-transform: uppercase;
+}
+.foot-text a
+{
+	color: #3EC9C3;	
+}
+
+/*		Media Queries		*/
+
+@media (min-width: 200px) and (max-width: 767px) {
+.navstyle{
+	width: 100% !important;
+}
+.navstyle li a {
+    padding: 10px 15px !important;
+    text-align: center;
+    display: block;
+}
+.notes button
+{
+margin-top: 20px;
+}
+.centertext
+{
+text-align: center;
+}
+.btn-or
+{
+margin-top: 20px;
+display: inline-block;
+}
+.menu-button {
+
+    padding: 8px 10px !important;
+    margin-top: 9px !important;
+    font-size: 30px !important;
+	color: #fff;
+}
+.features, .about, .notes, .testimonials, .address, .gallery{
+padding: 40px 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 990px) {
+.social {
+    margin-top: 10px;
+}
+.notes button {
+    padding: 14px 19px;
+    font-size: 13px;
+}
+}
+@media (min-width: 100px) and (max-width: 350px) {
+.sorting {
+
+    font-size: 10px;
+
+}
+}
